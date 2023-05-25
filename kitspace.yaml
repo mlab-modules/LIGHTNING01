@@ -1,0 +1,8 @@
+bom: ''
+eda:
+  pcb: hw/sch_pcb/LIGHTNING01.kicad_pcb
+  type: kicad
+gerbers: hw/cam_profi/
+site: https://github.com/mlab-modules/LIGHTNING01
+summary: Lightning sensor module based on AS3935 Franklin Lightning Sensor IO. Sensor
+  can be connected via I2C or SPI bus.

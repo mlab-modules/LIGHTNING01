@@ -1,0 +1,31 @@
+description: Lightning sensor module based on AS3935 Franklin Lightning Sensor IO.
+  Sensor can be connected via I2C or SPI bus.
+github_branch: LIGHTNING01A
+github_branches:
+- LIGHTNING01A
+github_repo: LIGHTNING01
+github_url: https://github.com/mlab-modules/LIGHTNING01
+homepage: false
+image: doc/img/LIGHTNING01A_w_top.jpg
+images:
+- doc/img/LIGHTNING01A_w_top.jpg
+- doc/img/LIGHTNING01A_bottom_980pF.jpg
+- doc/img/LIGHTNING01A_p.jpg
+- doc/img/LIGHTNING01A_bottom.jpg
+- doc/img/LIGHTNING01A_top.jpg
+- doc/img/LIGHTNING01A_bottom_1nF.jpg
+- doc/img/IRQ_DISP_LCO.png
+- doc/img/LIGHTNING01A_QRcode.png
+- doc/img/Antenna_DISP_LCO.png
+issues: 0
+mark: 50
+tags:
+- as3935
+- i2c
+- lightning
+- mlab
+- sensing
+- spi
+- thunderstorm
+- mlab-sensor
+title: LIGHTNING01
