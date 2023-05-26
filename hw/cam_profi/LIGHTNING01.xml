@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/LIGHTNING01.kicad_sch</source>
+    <date>Fri May 26 10:03:50 2023</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LIGHTNING01A</title>
+        <company>Mlab www.mlab.cz</company>
+        <rev>01A</rev>
+        <date>2018-03-01</date>
+        <source>LIGHTNING01.kicad_sch</source>
+        <comment number="1" value="Lightning detection module"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="romandvorak@mlab.cz"/>
+        <comment number="4" value="Open-source"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>510pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a99b02d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470pF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a975a74</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="comp">C0805_10u</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="comp" value="C0805_10u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9855ef</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="comp">C0805_1u</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="comp" value="C0805_1u"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a98a05e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF/10V</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055623093</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005562302c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>M4</value>
+      <footprint>Mlab_D:Diode-MELF_Standard</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055622fb7</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP2_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP2_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9ba381</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9b69a1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9b9fed</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9ba06f</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9ba0f0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9ba174</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9eedfa</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9eee89</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9eef13</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>JUMP_3X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x03</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="JUMP_3X2-MLAB_Jumpers-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9c810d</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>MA55532-AE</value>
+      <footprint>Mlab_L:Coilcraft_MA5532-AE_RFID</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a975d9a</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7549</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7628</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7646</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LIGHTNING01A-rescue" part="HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000549d7665</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a97c6ca</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a975b1f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Hodnota_i2c">0R</field>
+        <field name="Hodnota_spi">-</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Hodnota_i2c" value="0R"/>
+      <property name="Hodnota_spi" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a978d04</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Hodnota_i2c">-</field>
+        <field name="Hodnota_spi">0R</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Hodnota_i2c" value="-"/>
+      <property name="Hodnota_spi" value="0R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a978d57</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9b0ca6</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>-</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Hodnota_i2c">-</field>
+        <field name="Hodnota_spi">0R</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Hodnota_i2c" value="-"/>
+      <property name="Hodnota_spi" value="0R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a98ebcf</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <fields>
+        <field name="Hodnota_i2c">0R</field>
+        <field name="Hodnota_spi">-</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Hodnota_i2c" value="0R"/>
+      <property name="Hodnota_spi" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a98fce9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9a8ae1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9a0a72</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a9a7502</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AS3935</value>
+      <footprint>Mlab_IO:MLPQ-16</footprint>
+      <datasheet>http://ams.com/eng/content/download/249847/974777/143418</datasheet>
+      <fields>
+        <field name="comp">AS3935</field>
+      </fields>
+      <libsource lib="LIGHTNING01A-rescue" part="AS3935-MLAB_IO-LIGHTNING01A-rescue" description=""/>
+      <property name="comp" value="AS3935"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a97417e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="AS3935-MLAB_IO-LIGHTNING01A-rescue">
+      <footprints>
+        <fp>MLPQ</fp>
+        <fp>16</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS3935-MLAB_IO-LIGHTNING01A-rescue</field>
+        <field name="Footprint">Mlab_IO:MLPQ-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ACG" type="input"/>
+        <pin num="2" name="IN-" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Vdd" type="power_in"/>
+        <pin num="6" name="VReg" type="passive"/>
+        <pin num="7" name="EN" type="input"/>
+        <pin num="8" name="CS" type="input"/>
+        <pin num="9" name="SI" type="input"/>
+        <pin num="10" name="IRQ" type="bidirectional"/>
+        <pin num="11" name="SCL" type="bidirectional"/>
+        <pin num="12" name="MISO" type="output"/>
+        <pin num="13" name="MOSI/SDA" type="bidirectional"/>
+        <pin num="15" name="AD0" type="input"/>
+        <pin num="16" name="AD1" type="input"/>
+        <pin num="17" name="GNDPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="CP_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE-MLAB_MECHANICAL-LIGHTNING01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="JUMP2_2x1-MLAB_Jumpers-LIGHTNING01A-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP2_2x1-MLAB_Jumpers-LIGHTNING01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2x1-MLAB_Jumpers-LIGHTNING01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIGHTNING01A-rescue" part="JUMP_3X2-MLAB_Jumpers-LIGHTNING01A-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_3X2-MLAB_Jumpers-LIGHTNING01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ACG">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ACG" pintype="input"/>
+    </net>
+    <net code="2" name="/ADR0">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="AD0" pintype="input"/>
+    </net>
+    <net code="3" name="/ADR1">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="AD1" pintype="input"/>
+    </net>
+    <net code="4" name="/CS">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="5" name="/IN+">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="6" name="/IRQ">
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IRQ" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MISO">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="8" name="/SCL">
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/SDA_MOSI">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="MOSI/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SI">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="M3" pin="1" pintype="input"/>
+      <node ref="M4" pin="1" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GNDPAD" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="IN-" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VReg" pintype="passive"/>
+    </net>
+    <net code="13" name="VCC">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="EN" pintype="input"/>
+    </net>
+  </nets>
+</export>
