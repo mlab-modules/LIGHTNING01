@@ -17,8 +17,16 @@ images:
 - doc/img/IRQ_DISP_LCO.png
 - doc/img/LIGHTNING01A_QRcode.png
 - doc/img/Antenna_DISP_LCO.png
+- doc/gen/img/LIGHTNING01-bottom.png
+- doc/gen/img/LIGHTNING01-top.png
+- hw/cam_profi/docs/LIGHTNING01A-assembly_page_01.svg
+- hw/cam_profi/docs/LIGHTNING01A-assembly_page_02.svg
+- doc/gen/LIGHTNING01-schematic.svg
+- doc/gen/img/LIGHTNING01-top.svg
 issues: 0
 mark: 80
+mod_ibom: hw/cam_profi/ibom/LIGHTNING01-ibom.html
+mod_scheme: doc/gen/LIGHTNING01-schematic.pdf
 tags:
 - as3935
 - i2c
