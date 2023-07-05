@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LIGHTNING01.kicad_sch</source>
-    <date>Wed Jul  5 12:25:31 2023</date>
-    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <date>Wed Jul  5 15:00:08 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LIGHTNING01A</title>
@@ -30,6 +30,8 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a99b02d</tstamps>
     </comp>
@@ -39,6 +41,8 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a975a74</tstamps>
     </comp>
@@ -52,6 +56,8 @@
       <property name="comp" value="C0805_10u"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a9855ef</tstamps>
     </comp>
@@ -65,6 +71,8 @@
       <property name="comp" value="C0805_1u"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a98a05e</tstamps>
     </comp>
@@ -83,6 +91,8 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005562302c</tstamps>
     </comp>
@@ -92,6 +102,8 @@
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055622fb7</tstamps>
     </comp>
@@ -191,6 +203,8 @@
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a975d9a</tstamps>
     </comp>
@@ -236,6 +250,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a97c6ca</tstamps>
     </comp>
@@ -245,6 +261,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a975b1f</tstamps>
     </comp>
@@ -260,6 +278,8 @@
       <property name="Hodnota_spi" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a978d04</tstamps>
     </comp>
@@ -275,6 +295,8 @@
       <property name="Hodnota_spi" value="0R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a978d57</tstamps>
     </comp>
@@ -284,6 +306,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a9b0ca6</tstamps>
     </comp>
@@ -299,6 +323,8 @@
       <property name="Hodnota_spi" value="0R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a98ebcf</tstamps>
     </comp>
@@ -314,6 +340,8 @@
       <property name="Hodnota_spi" value="-"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a98fce9</tstamps>
     </comp>
@@ -323,6 +351,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a9a8ae1</tstamps>
     </comp>
@@ -332,6 +362,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a9a0a72</tstamps>
     </comp>
@@ -341,6 +373,8 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LIGHTNING01.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a9a7502</tstamps>
     </comp>
@@ -608,7 +642,7 @@
       <node ref="U1" pin="2" pinfunction="IN-" pintype="input"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="12" name="Net-(C4-Pad2)">
+    <net code="12" name="Net-(U1-VReg)">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="VReg" pintype="passive"/>
     </net>
