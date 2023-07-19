@@ -6,7 +6,7 @@ github_branches:
 github_repo: LIGHTNING01
 github_url: https://github.com/mlab-modules/LIGHTNING01
 homepage: true
-image: doc/img/LIGHTNING01A_w_top.jpg
+title_image: doc/gen/img/LIGHTNING01-top.png
 images:
 - doc/img/LIGHTNING01A_bottom.jpg
 - doc/img/LIGHTNING01A_bottom_1nF.jpg
