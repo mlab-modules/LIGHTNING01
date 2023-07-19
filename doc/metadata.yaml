@@ -6,16 +6,15 @@ github_branches:
 github_repo: LIGHTNING01
 github_url: https://github.com/mlab-modules/LIGHTNING01
 homepage: true
-title_image: doc/gen/img/LIGHTNING01-top.png
 images:
-- doc/img/LIGHTNING01A_bottom.jpg
-- doc/img/LIGHTNING01A_bottom_1nF.jpg
-- doc/img/LIGHTNING01A_w_top.jpg
-- doc/img/LIGHTNING01A_p.jpg
 - doc/img/LIGHTNING01A_bottom_980pF.jpg
+- doc/img/LIGHTNING01A_w_top.jpg
+- doc/img/LIGHTNING01A_bottom_1nF.jpg
+- doc/img/LIGHTNING01A_bottom.jpg
+- doc/img/LIGHTNING01A_p.jpg
 - doc/img/LIGHTNING01A_top.jpg
-- doc/img/Antenna_DISP_LCO.png
 - doc/img/IRQ_DISP_LCO.png
+- doc/img/Antenna_DISP_LCO.png
 - doc/img/LIGHTNING01A_QRcode.png
 - doc/gen/img/LIGHTNING01-top.png
 - doc/gen/img/LIGHTNING01-bottom.png
@@ -44,3 +43,4 @@ tags:
 - mlab-kicad
 - pcb
 title: LIGHTNING01
+title_image: doc/gen/img/LIGHTNING01-top.png
